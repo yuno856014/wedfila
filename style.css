@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    background : white;
+    padding: 5px 0;
+}
+header .container .container_header{
+    display: flex;
+    align-items: center;
+}
+header .container .container_header .logo_header{
+    flex-basis: 10%;
+}
+header .container .container_header .menu_header{
+    flex-basis: 80%;
+}
+header .container .container_header .card_head{
+    flex-basis: 10%;
+    position: relative;
+    width: 40px;
+}
+
+header .container .container_header .card_head .cart{
+    position: relative;
+    width: 40px;
+}
+.cart > i{
+    font-size: 15px;
+}
+.search-box{
+    position: absolute;
+    height: 40px;
+    background:white;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 140px ;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+    color: black;
+}
+.search-btn{
+    color: rgb(2, 2, 2) ;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-btn > i{
+    font-size: 15px;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height:40px;
+    width: 0px;
+    font-weight: bold;
+}
+
+header .container .container_header .menu_header nav .nav_link li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+header .container .container_header .menu_header nav .nav_link li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 1000;
+}
+header .container .container_header .card_head{
+    flex-basis: 10%;
+}
+header .container .container_header .menu_header nav .nav_link li a:hover{
+   color: #ff0000;
+}
