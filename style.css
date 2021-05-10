@@ -775,3 +775,28 @@ footer{
   display: flex;
   justify-content: center;
 }
+.fa-google:before {
+  content: "\f1a0";
+  color: #636e72;
+}
+.fa-linkedin:before {
+  content: "\f08c";
+  color: #636e72;
+}
+.fa-pinterest-p:before {
+  content: "\f231";
+  color: #636e72;
+}
+.fa-instagram:before {
+  content: "\f16d";
+  color: #636e72;
+}
+.fa-facebook:before {
+  content: "\f09a";
+  color: #636e72;
+}
+.fa-cart-plus:before {
+  content: "\f217";
+  font-size: 17px;
+  color: #000000;
+}
