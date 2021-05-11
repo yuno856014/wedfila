@@ -304,8 +304,7 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
   left: 50%;
   max-width: 300px;
   transition: 0.5s;
-  z-index: 11;
-  transition: 0.5s;
+  z-index: -1;
   transform-style: preserve-3d;
   transform: translate3d(-50%,-50%,0px) rotate(-15deg); 
 }
