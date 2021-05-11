@@ -500,14 +500,14 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
   display: inline-block;
   margin:  0 20px;
   padding: 5px 10px;
-  background: blue;
+  background: gray;
   color: white;
   border-radius: 5px;
   text-decoration: none;
   transition: 0.5s;
 }
 .body_product .show_product .card .items .button a:hover{
-  background: #ff7675;
+  background: black;
 }
 
 /* endnew */
