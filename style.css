@@ -131,8 +131,8 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
     transition: 2s;
   }
   .slide img{
-    width: 1530px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     object-fit: cover; 
   }
   .navigation-manual{
@@ -302,7 +302,7 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 300px;
+  max-width: 100%;
   transition: 0.5s;
   z-index: -1;
   transform-style: preserve-3d;
@@ -414,10 +414,9 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 300px;
+  max-width: 100%;
   transition: 0.5s;
-  z-index: 11;
-  transition: 0.5s;
+  z-index: -1;
   transform-style: preserve-3d;
   transform: translate3d(-50%,-50%,0px) rotate(-15deg); 
 }
@@ -687,10 +686,11 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
 }
 
 .link a {
-	color: #ae2121;
+	color: black;
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
 
 @media (min-width: 900px) {
