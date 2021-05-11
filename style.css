@@ -687,10 +687,10 @@ header .container .container_header .menu_header nav .nav_link li a:hover{
 }
 
 .link a {
-	color: #2d3436;
+	color: #ae2121;
 	text-transform: uppercase;
 	font-size: 40px;
-	font-family: "Neutral Face";
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 900px) {
